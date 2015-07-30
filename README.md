@@ -8,6 +8,8 @@
 [![Badges](http://img.shields.io/:badges-8/8-438cf0.svg?style=flat)](https://github.com/badges/badgerbadgerbadger)
 
 # caretEnsemble
+
+[![Join the chat at https://gitter.im/terrytangyuan/caretEnsemble](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/terrytangyuan/caretEnsemble?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Framework for fitting multiple [caret models](https://github.com/topepo/caret) using the same re-sampling strategy as well as creating ensembles of such models.  Use `caretList` to fit multiple models, and then use `caretEnsemble` to combine them greedily, or `caretStack` to combine them using a caret model.
 
 caretEnsemble was inspired by [medley](https://github.com/mewo2/medley), which in turn was inspired by Caruana et. al.'s (2004) paper [Ensemble Selection from Libraries of Models.](http://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml04.icdm06long.pdf)
